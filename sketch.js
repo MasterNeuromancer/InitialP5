@@ -1,13 +1,13 @@
 function setup() {
-	createCanvas(100, 100);
+	createCanvas(600, 700);
+	background(100, 150, 400);
 }
 
 function draw() {
-	background(100, 150, 400);
 	if (mouseIsPressed) {
-		fill(0);
+		fill(75);
 	} else {
 		fill(255);
 	}
-	ellipse(mouseX, mouseY, 30, 30);
+	rect(mouseX, mouseY, 30, 30);
 }
