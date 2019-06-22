@@ -1,13 +1,14 @@
 function setup() {
-	createCanvas(600, 700);
-	background(100, 150, 400);
+	createCanvas(400, 400);
+	background(150);
 }
 
 function draw() {
-	if (mouseIsPressed) {
-		fill(75);
-	} else {
-		fill(255);
-	}
-	rect(mouseX, mouseY, 30, 30);
+	var c = color(0);
+	fill(c);
+	circle(200, 150, 150);
+	triangle(134, 115, 167, 85, 125, 60);
+	triangle(266, 115, 233, 85, 275, 60);
+	fill('#B97C6D');
+	triangle(200, 160, 205, 150, 195, 150);
 }
